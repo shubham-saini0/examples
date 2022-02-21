@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    color:white;
+    border-radius:10px;
+    width:209px;
+    overflow:hidden;
+    margin:auto;
+}
+
+#top{
+    background-color: rgb(37, 32, 32);
+    overflow: hidden;
+    width:209px;
+    height:80px;
+}
+
+#top p{
+    float:right;
+    margin:0px;
+    font-size:25px;
+    position:relative;
+    top:50%;
+    right:10px;
+    font-weight:bolder;
+}
+
+input{
+    position:relative;
+    top:5px;
+    left:5px;
+}
+
+#body{
+    overflow:hidden;
+    margin:0px;
+}
+
+#row1,#row2,#row3,#row4,#row5{
+     overflow:hidden;
+     height:40px;
+     font-size:0;
+}
+
+.t1{
+    width:92px !important;
+}
+
+.y1{
+    background-color: gray;
+}
+
+.y2{
+    background-color: green;
+}
+
+span{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    padding:5px;
+    text-align:center;
+    margin:0px;
+    overflow:hidden;
+    font-size:14px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;;
+}
